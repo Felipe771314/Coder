@@ -1,0 +1,894 @@
+* {
+  margin: 0%;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+body {
+  padding-bottom: 0px;
+}
+
+.video {
+  align-content: center;
+  width: 200px;
+  height: 400px;
+  padding: 0%;
+}
+
+.a,
+button {
+  align-content: center;
+}
+
+.informacion {
+  align-content: initial;
+  height: 100px;
+  margin: 50px;
+  text-align-last: center;
+}
+
+.imagen-techo {
+  width: 50%;
+  align-content: left;
+  margin: 10px;
+}
+
+.body {
+  line-height: 25px;
+  font-size: 16px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  color: #0c78d6;
+}
+
+h1,
+.encabezado2 {
+  font-family: "arial";
+  color: #fc0000;
+  margin: 50px;
+  text-align-last: center;
+}
+
+.encabezado1 {
+  text-decoration-line: line-through;
+}
+
+a,
+p {
+  color: #000000;
+  padding: 20px;
+}
+
+section {
+  margin: 20px;
+}
+
+h3,
+p,
+a {
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+}
+
+.grande {
+  font-size: 50px;
+}
+
+.portada {
+  height: 500%;
+  width: 100%;
+}
+
+.encabezado1 {
+  font-family: "Arial", Helvetica, sans-serif;
+  color: #000000;
+  text-align-last: center;
+  display: block;
+}
+
+.imgWrapper4,
+.imgWrapper3 {
+  font-size: 0;
+  text-align: center;
+}
+
+.imgWrapper4 .imgResponsiva,
+.imgWrapper3 .imgResponsiva {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.imgWrapper4 .imgResponsiva {
+  width: 25%;
+  max-width: 345px;
+}
+
+.imgWrapper3 .imgResponsiva {
+  width: 33.3%;
+  max-width: 345px;
+}
+
+.imgResponsiva img {
+  height: auto;
+  width: 100%;
+}
+
+.video {
+  text-align-last: center;
+  display: block;
+}
+
+.catalogo {
+  width: 100%;
+  height: 100%;
+  background-color: #c70a0a;
+}
+
+.grid {
+  justify-content: flex-start;
+  align-items: center;
+  padding-right: 5px;
+  display: flex;
+  margin: 70px;
+}
+
+.textos {
+  text-align: center;
+  text-decoration: none;
+}
+
+.form {
+  background-color: #0d075a;
+  color: whitesmoke;
+  align-content: center;
+  text-align: center;
+  width: auto;
+  height: auto;
+  padding: 10px;
+}
+
+.mensaje {
+  color: whitesmoke;
+}
+
+.mensaje {
+  color: white;
+}
+
+.encabezado1 {
+  text-decoration-line: line-through;
+  font-size: 15px;
+  color: orange;
+  letter-spacing: 1px;
+  line-height: 15px;
+  background-color: #0d075a;
+}
+
+.float-right {
+  align-content: flex-end;
+}
+
+.footer {
+  background-color: #bdbdbd;
+  size: 10px;
+  text-decoration: beige;
+}
+
+.foto1 {
+  display: flex;
+  width: 900px;
+  justify-content: flex-start;
+  height: 140px;
+}
+
+.fotografia1 {
+  display: flex;
+  width: 900px;
+  justify-content: flex-start;
+  height: 100px;
+  align-items: baseline;
+}
+
+.photo-grid-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  height: auto;
+}
+
+.photo-grid {
+  width: 900px max-content;
+  display: flex;
+  justify-content: center;
+}
+
+.banner-portfolio {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.imagen-zoom-sombra img {
+  transition: all 0.2s;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+}
+
+.imagen-zoom-sombra img:hover {
+  transform: scale(1.3);
+  -moz-transform: scale(1.3);
+  -webkit-transform: scale(1.3);
+  -webkit-box-shadow: 0px 6px 33px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 6px 33px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 6px 33px 0px rgba(0, 0, 0, 0.75);
+  border: solid 6px white;
+}
+
+.imagen-zoom img {
+  transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  margin: 30px;
+}
+
+.imagen-zoom img:hover {
+  transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+}
+
+@media only screen and (max-width: 400px) {
+  body {
+    background-color: bisque;
+  }
+}
+/* tablet style*/
+@media only screen and (min-width: 401px) and (max-width: 9200px) {
+  body {
+    background-color: #975300;
+  }
+
+  .item-a,
+.item-b,
+.item-c,
+.item-d {
+    width: 50% !important;
+  }
+}
+/* desktop style*/
+@media only screen and (min-width: 961) {
+  body {
+    background-color: #f70000;
+  }
+}
+.item-a,
+.item-b,
+.item-c,
+.item-d .imagen-banner {
+  width: 33, 3%;
+}
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+}
+
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 32rem;
+}
+
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.marketing h2 {
+  font-weight: 400;
+}
+
+.marketing .col-lg-4 p {
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+}
+
+/* Featurettes
+------------------------- */
+.featurette-divider {
+  margin: 5rem 0;
+  /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -0.05rem;
+}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+.imagen-banner {
+  position: relative;
+  width: 100%;
+}
+
+.container {
+  max-width: 960px;
+}
+
+/*
+ * Custom translucent site header
+ */
+.site-header {
+  background-color: rgba(0, 0, 0, 0.85);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+}
+
+.site-header a {
+  color: #999;
+  transition: ease-in-out color 0.15s;
+}
+
+.site-header a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+/*
+ * Dummy devices (replace them with your own or something else entirely!)
+ */
+.product-device {
+  position: absolute;
+  right: 10%;
+  bottom: -30%;
+  width: 300px;
+  height: 540px;
+  background-color: #333;
+  border-radius: 21px;
+  -webkit-transform: rotate(30deg);
+  transform: rotate(30deg);
+}
+
+.product-device::before {
+  position: absolute;
+  top: 10%;
+  right: 10px;
+  bottom: 10%;
+  left: 10px;
+  content: "";
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+}
+
+.product-device-2 {
+  top: -25%;
+  right: auto;
+  bottom: 0;
+  left: 5%;
+  background-color: #e5e5e5;
+}
+
+/*
+ * Extra utilities
+ */
+.flex-equal > * {
+  -ms-flex: 1;
+  flex: 1;
+}
+
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    -ms-flex: 1;
+    flex: 1;
+  }
+}
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+.portfolio1 {
+  font-size: 15px;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+
+.form-signin input[type=email] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type=password] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.social {
+  position: fixed;
+  left: 0;
+  top: 200px;
+  z-index: 2000;
+}
+
+.social ul {
+  list-style: none;
+}
+
+.social ul li a {
+  display: inline-block;
+  color: #fff;
+  background: #000;
+  padding: 10px 15px;
+  text-decoration: none;
+  -webkit-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
+.social ul li .icon-facebook {
+  background: #3b5998;
+}
+
+.social ul li .icon-instagram {
+  background: #d95232;
+}
+
+.social ul li .icon-git {
+  background: #ae181f;
+}
+
+.social ul li .icon-mail {
+  background: #666666;
+}
+
+.social ul li a:hover {
+  background: #000;
+  padding: 10px 30px;
+}
+
+.blog-header {
+  line-height: 1;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.blog-header-logo {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+  font-size: 2.25rem;
+}
+
+.blog-header-logo:hover {
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+}
+
+.display-4 {
+  font-size: 2.5rem;
+}
+
+@media (min-width: 768px) {
+  .display-4 {
+    font-size: 3rem;
+  }
+}
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.nav-scroller .nav-link {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  font-size: 0.875rem;
+}
+
+.card-img-right {
+  height: 100%;
+  border-radius: 0 3px 3px 0;
+}
+
+.flex-auto {
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+}
+
+.h-250 {
+  height: 250px;
+}
+
+@media (min-width: 768px) {
+  .h-md-250 {
+    height: 250px;
+  }
+}
+/* Pagination */
+.blog-pagination {
+  margin-bottom: 4rem;
+}
+
+.blog-pagination > .btn {
+  border-radius: 2rem;
+}
+
+/*
+ * Blog posts
+ */
+.blog-post {
+  margin-bottom: 4rem;
+}
+
+.blog-post-title {
+  margin-bottom: 0.25rem;
+  font-size: 2.5rem;
+}
+
+.blog-post-meta {
+  margin-bottom: 1.25rem;
+  color: #999;
+}
+
+/*
+ * Footer
+ */
+.blog-footer {
+  padding: 2.5rem 0;
+  color: #999;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-top: 0.05rem solid #e5e5e5;
+}
+
+.blog-footer p:last-child {
+  margin-bottom: 0;
+}
+
+.container {
+  padding-top: 50px;
+}
+
+hr {
+  width: 300px;
+  border: 3px solid #434444;
+}
+
+/* Product Grid */
+.product-grid {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.product-grid:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.image {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: rgba(67, 68, 68, 0.7);
+}
+
+.image:hover .overlay {
+  opacity: 1;
+}
+
+.detail {
+  color: #fff;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.buy {
+  background-color: transparent;
+  color: #434444;
+  border-radius: 0;
+  border: 1px solid #434444;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.buy:hover {
+  background-color: #434444;
+  color: #fff;
+}
+
+.tres {
+  height: 10px;
+}
+
+.form-register {
+  width: 400px;
+  background: #24303c;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  font-family: "calibri";
+  color: white;
+  box-shadow: 7px 13px 37px #000;
+}
+
+.form-register h4 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.controls {
+  width: 100%;
+  background: #24303c;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #1f53c5;
+  font-family: "calibri";
+  font-size: 18px;
+  color: white;
+}
+
+.form-register p {
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 40px;
+}
+
+.form-register a {
+  color: white;
+  text-decoration: none;
+}
+
+.form-register a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.form-register .botons {
+  width: 100%;
+  background: #1f53c5;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 16px;
+}
+
+.fromulariocontacto {
+  color: white;
+}
+
+.contacto {
+  width: 100%;
+}
+
+.btn_cancel, .btn_alert, .btn_success {
+  width: 100px;
+  text-align: center;
+  padding: 5px 0;
+  margin: 2px auto;
+  border-radius: 2px;
+  color: #FFFFFF;
+}
+
+.btn_success {
+  background-color: #108EFF;
+}
+
+.btn_alert {
+  background-color: #FF8516;
+}
+
+.btn_cancel {
+  background-color: #D61E20;
+}
+
+.imagen-banner {
+  background-color: #33D374;
+  border-radius: 5%;
+  text-align: center;
+  margin: 5px;
+}
+
+.imagen-techo {
+  width: 150px;
+  height: 50px;
+  background-color: #757e86;
+  border-radius: 5%;
+  text-align: center;
+  margin: 5px;
+}
+
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #5a5a5a;
+}
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+}
+
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 32rem;
+}
+
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.marketing h2 {
+  font-weight: 400;
+}
+
+.marketing .col-lg-4 p {
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+}
+
+/* Featurettes
+------------------------- */
+.featurette-divider {
+  margin: 5rem 0;
+  /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -0.05rem;
+}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
